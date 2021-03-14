@@ -7,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunosComponent implements OnInit {
   
+  public titulo = 'Alunos';
   public alunos =
   [
-    { nome: 'Fábio' },
-    { nome: 'Maria' },
-    { nome: 'João'  },
+    { id:1, nome: 'Fábio' },
+    { id:2, nome: 'Maria' },
+    { id:2, nome: 'João'  },
   ];
   
   constructor() { }
